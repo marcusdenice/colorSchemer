@@ -1,2 +1,2 @@
 # colorSchemer
-simplle .js app for picking colors of html elements
+simple .js app for picking colors of html elements
