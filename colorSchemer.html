@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>The Color Schemer</title>
+
+<!-- add stylesheet to head -->
+	<link rel="stylesheet" type="text/css" href="colorSchemer.css">
+	
+</head>
+
+<body>
+
+<!-- add div to body -->
+<div id="divColorSchemer" class="noSelect">
+	<h1 id="csTitle">The Color Schemer</h1>
+	<h2 class="csSubTitle" >Background Gradient</h2>
+	<h4 class="csH">Left Side Color:
+		<input id="fColor" class="csInputs" type="color"></h4>
+	<h4 class="csH">Right Side Color:
+		<input id="sColor" class="csInputs" type="color"></h4>
+	<h5 class="csH ">Bgd Colors:<input id="printBgColor" class="csInputs" 
+		type="text" placeholder=" #"></h5>	
+	<h2 class="csSubTitle">Element Color/Background</h2>
+	<h5 class="csH">Element:<input id="printElement" class="csInputs" 
+		type="text"	placeholder="Select Element"></h5>
+	<h5 class="csH">Color:<input id="printColor" class="csInputs" 
+		type="text"	placeholder=" #"></h5>
+	<h5 class="csH">Bgd Colors:<input id="printColorBg" class="csInputs" 
+		type="text"	placeholder=" #"></h5>
+	<h4 class="csH">Background Yes/No:
+		<input type="checkbox" id="backgroundSelected" value="backGround"></h4>
+	<h4 class="csH">Color/Left Background:
+		<input id="elementColor" class="csInputs" type="color"></h4>
+	<h4 class="csH">Right Background:    
+		<input id="elementColor2" class="csInputs" type="color"></h4>	
+</div>
+<!-- add script to html -->	
+<script type="text/javascript"  src="colorSchemeScript.js"></script>
+	
+</body>
+</html>
